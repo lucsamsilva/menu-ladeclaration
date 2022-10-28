@@ -1,3 +1,10 @@
 # Menu L'Déclaration
 
-This is a menu for the restaurant L'DéClaration, builded in pure html, css3 and javascript - used to make animations.
+This is a menu for the restaurant L'Déclaration, maked with html, css3 and javascript
+
+## User Stories 
+
+- [ ] User can see the foods 
+- [ ] After can see the discount
+- [ ] And choose food
+

@@ -8,5 +8,61 @@ p, h3, h1 {
     text-transform: uppercase;
 }
 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes move {
+    0% {
+        transform: translate(-2px);
+    }
+    50% {
+        transform: translate(2px);
+    }
+    100% {
+        transform: translate(-2px);
+    }
+
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 80%;
+    height: inherit;
+
+    margin: 2rem;
+    padding: 20px;
+
+    background-color: #f4f4f4;
+
+    border-radius: 34px;
+    box-shadow: black;
+    box-shadow: 3px 3px 9px 0px rgba(50, 50, 50, 0.24);
+
+    /* animation section */
+    animation-name: move;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+} 
+
+header {
+    width: 100%;
+    height: 25%;
+    border-radius: 10px;
+    
+    background-color: #C9B6FF;
+    padding: 35px;
+    margin: 5px; 
+}
+
+
+
+
 
 

@@ -1,3 +1,5 @@
+
+/* card styles */
 #card-items {
 
     display: flex;
@@ -5,10 +7,11 @@
     align-items: center;
 
     padding: 12px;
-    margin: 4px ;
+    margin: 8px ;
     
 }
 
+/* header style */
 .header-item {
     width: 146px ;
     background-color: #C9B6FF;
@@ -28,6 +31,7 @@
 
 }
 
+/* Main sytles */
 .main-item { 
 
     margin-bottom: 5px;
@@ -39,4 +43,18 @@
     font-family: 'Roboto', sans-serif;
 
     font-size: 12pt;
+}
+
+main { 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    max-width: 650px;
+    width: 100%;
+
+    padding: 9px;
+    margin-top: 12px;
+
+    border: 1px solid #000;
+    border-radius: 6px;
 }

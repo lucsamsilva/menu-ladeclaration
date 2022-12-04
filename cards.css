@@ -1,0 +1,42 @@
+#card-items {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 12px;
+    margin: 4px ;
+    
+}
+
+.header-item {
+    width: 146px ;
+    background-color: #C9B6FF;
+    border-radius: 6px;
+    padding: 2px;
+    
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.header-item h3 {
+
+    font-weight: 700;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+.main-item { 
+
+    margin-bottom: 5px;
+    text-align: justify;
+}
+
+.main-item p {
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+
+    font-size: 12pt;
+}

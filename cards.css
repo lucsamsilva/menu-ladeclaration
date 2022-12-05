@@ -1,6 +1,6 @@
 
 /* card styles */
-#card-items {
+.card-items {
 
     display: flex;
     flex-direction: column;
@@ -48,6 +48,10 @@
 main { 
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+        'breakfast dissert'
+        'lunch beverage'
+        'dinner img';
 
     max-width: 650px;
     width: 100%;
@@ -57,4 +61,36 @@ main {
 
     border: 1px solid #000;
     border-radius: 6px;
+}
+
+.breakfast {
+    grid-area: breakfast;
+    border-right: 1px solid #000000;
+}
+
+.lunch {
+    grid-area: lunch;
+    border-right: 1px solid #000000;
+
+}
+
+.dinner {
+    grid-area: dinner;
+    border-right: 1px solid #000000;
+    
+
+}
+
+.beverage {
+    grid-area: beverage;
+}
+
+.dissert {
+    grid-area: dissert;
+}
+
+.img {
+    grid-area: img;
+    margin-left: 30px;
+    margin-top: -90px;
 }

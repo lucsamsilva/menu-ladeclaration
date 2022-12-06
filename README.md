@@ -9,4 +9,4 @@ This is a menu for the restaurant L'Déclaration, maked with html, css3 and java
 - [ ] And choose food
 
 
-You can see aapllication in [here](https://luminous-cactus-ce9a5d.netlify.app/)
+You can see aapllication in [here](https://menuladececoration.netlify.app/)
